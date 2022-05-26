@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Cocosharp";
+  src: url("/fonts/CocoSharp.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cocosharp";
+  src: url("/fonts/CocoSharp-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cocosharp";
+  src: url("/fonts/CocoSharp-Heavy.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Moon Get";
+  src: url("/fonts/MOON GET-Heavy.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Radwave";
+  src: url("/fonts/Radwave.woff") format("woff"),
+    url("/fonts/Radwave.woff2") format("woff2");
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #001214;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #04f4f3;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Cocosharp", sans-serif;
+}
+
+.moon-get {
+  font-family: "Moon Get", sans-serif;
+}
+
+.radwave {
+  font-family: "Radwave", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #001214;
+  color: #ffffff;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 900;
+  text-shadow: 0 5px 4px rgb(0 0 0 / 25%);
+}
